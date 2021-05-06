@@ -1,0 +1,9 @@
+.App {
+  display:flex;
+  justify-content: center;
+}
+
+.slick-dots li button:before{ 
+     color: #00bcd4 !important;
+
+}
