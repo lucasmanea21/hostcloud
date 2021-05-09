@@ -7,6 +7,8 @@ const CardWrapper = styled.div`
     text-align: center;
     /* max-width: 33%; */
     box-sizing: border-box;
+    display:flex;
+
 `
 const CardContent = styled.div`
     display:flex;
@@ -15,18 +17,30 @@ const CardContent = styled.div`
     align-items: center;
     padding: 50px 40px;
 `
-const CardImage = styled.div`
+export const CardImage = styled.div`
     background-color: #00bcd4;
     display:flex;
     justify-content:center;
     align-items:center;
-    height: 100px;
-    width: 100px;
+    padding: 33px;
     border-radius: 50%;
-
+    svg {
+         height: 35px;
+         width: 40px;
+         color: #fff;
+         display:flex;
+    }
 `
 
-const IconWrapper = styled.div``
+const IconWrapper = styled.div`
+    
+    
+    :nth-child(1) {
+        height: 35px;
+         width: 40px;
+         color: #fff;
+    }
+`
 
 const CardTitle = styled.p`
     font-weight: 600;
@@ -41,7 +55,7 @@ const Card = ({title,desc,icon}) => {
         <CardWrapper>
             <CardContent>
             <CardImage>
-               <IconWrapper> {icon}</IconWrapper>
+                <span>{icon}</span>
             </CardImage>
             <CardTitle>{title}</CardTitle>
             <CardP>{desc}</CardP>

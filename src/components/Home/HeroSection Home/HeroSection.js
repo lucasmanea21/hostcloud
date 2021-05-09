@@ -1,5 +1,5 @@
 import React from 'react'
-import { BtnWrapper } from '../Navbar/NavbarComponents'
+import { BtnWrapper } from '../../Navbar/NavbarComponents'
 import * as Cp from './HeroComponents'
 
 const HeroSection = () => {

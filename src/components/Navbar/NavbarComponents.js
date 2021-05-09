@@ -62,7 +62,7 @@ export const NavLink= styled(Link) `
     color: ${({scrollNav}) => (scrollNav ? '#000' : '#fff')};
 
     &:hover{
-        color: #1a80c4;
+        color: #00bcd4;
     }
 
     

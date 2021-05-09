@@ -1,7 +1,7 @@
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ServicesTitle, ServicesTopline } from '../ServicesSection/ServicesElements';
+import { ServicesTitle, ServicesTopline } from '../Home/ServicesSection/ServicesElements';
 import * as Cp from './TestimonialsElements'
 import '../../App.css'
 import {data} from './data'

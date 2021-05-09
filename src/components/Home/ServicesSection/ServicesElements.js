@@ -49,7 +49,4 @@ export const CardWrapper = styled.div`
 `
 
 export const Icon = styled(HiDatabase)`
-    height: 35px;
-    width: 40px;
-    color: #fff;
 `

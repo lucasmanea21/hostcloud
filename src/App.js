@@ -1,25 +1,18 @@
 import './App.css';
-import HeroSection from './components/HeroSection/HeroSection';
-import HostingPlans from './components/PlansSection/HostingPlans';
-import Navbar from './components/Navbar/Navbar';
-import Services from './components/ServicesSection/Services';
-import TrustedSection from './components/TrustedSection/TrustedSection';
-import FeaturesSection from './components/FeaturesSection/FeaturesSection';
-import Testimonials from './components/Testimonials/Testimonials';
-import Footer from './components/Footer/Footer';
+import About from './pages/About';
+import Home from './pages/Home';
+import {Switch, Route } from 'react-router-dom'
+import Services from './pages/Services';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <> 
-       <Navbar />
-       <HeroSection />
-      <TrustedSection />
-      <Services /> 
-      <HostingPlans />
-     <FeaturesSection />
-     <Testimonials />
-     <Footer />
-    </>
+    <Switch> 
+      <Route path='/' exact component={Home} />
+      <Route path='/about' component={About} />
+      <Route path='/services' component={Services} />
+      <Route path='/contact' component={Contact} />
+    </Switch>
   );
 }
 

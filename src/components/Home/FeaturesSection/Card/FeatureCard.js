@@ -6,7 +6,7 @@ const FeatureCard = ({title,desc}) => {
         <Cp.CardDiv>
         <Cp.CardWrapper>
             <Cp.ImageWrapper>
-                <img src='https://templatemo.com/templates/templatemo_541_host_cloud/assets/images/feature-01.png' alt='feature'/>
+                <img src={'https://templatemo.com/templates/templatemo_541_host_cloud/assets/images/feature-01.png'} alt='feature'/>
             </Cp.ImageWrapper>
             <Cp.CardContent>
                 <Cp.CardTitle>{title}</Cp.CardTitle>

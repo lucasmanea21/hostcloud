@@ -24,9 +24,9 @@ const Navbar = () => {
                 
                 <Cp.NavMenu>
                     <Cp.NavLink scrollNav={scrollNav} to='/'>Home</Cp.NavLink>
-                    <Cp.NavLink scrollNav={scrollNav} to='/'>About Us</Cp.NavLink>
-                    <Cp.NavLink scrollNav={scrollNav} to='/'>Our Services</Cp.NavLink>
-                    <Cp.NavLink scrollNav={scrollNav} to='/'>Contact Us</Cp.NavLink>
+                    <Cp.NavLink scrollNav={scrollNav} to='/about'>About Us</Cp.NavLink>
+                    <Cp.NavLink scrollNav={scrollNav} to='/services'>Our Services</Cp.NavLink>
+                    <Cp.NavLink scrollNav={scrollNav} to='/contact'>Contact Us</Cp.NavLink>
                 </Cp.NavMenu>
                 <Cp.NavBtns>
                 <Cp.BtnWrapper ><Cp.LogInBtn scrollNav={scrollNav}>Log in</Cp.LogInBtn></Cp.BtnWrapper>
@@ -37,9 +37,9 @@ const Navbar = () => {
                 </Cp.MenuIconWrap>
                 <Cp.DropDownMenu isOpen={isOpen}>
                     <Cp.MenuItem to='/'>Home</Cp.MenuItem>
-                    <Cp.MenuItem to='/'>About Us</Cp.MenuItem>
-                    <Cp.MenuItem to='/'>Our Services</Cp.MenuItem>
-                    <Cp.MenuItem to='/'>Contact Us</Cp.MenuItem>
+                    <Cp.MenuItem to='/about'>About Us</Cp.MenuItem>
+                    <Cp.MenuItem to='/services'>Our Services</Cp.MenuItem>
+                    <Cp.MenuItem to='/contact'>Contact Us</Cp.MenuItem>
                 </Cp.DropDownMenu>
             </Cp.NavbarWrapper>
         </Cp.Nav>
