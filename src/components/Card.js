@@ -32,15 +32,6 @@ export const CardImage = styled.div`
     }
 `
 
-const IconWrapper = styled.div`
-    
-    
-    :nth-child(1) {
-        height: 35px;
-         width: 40px;
-         color: #fff;
-    }
-`
 
 const CardTitle = styled.p`
     font-weight: 600;

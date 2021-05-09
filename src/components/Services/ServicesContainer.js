@@ -3,7 +3,7 @@ import { ServicesP, ServicesTitle, ServicesTopline } from '../Home/ServicesSecti
 import * as Cp from './ServicesComponents'
 import {servicesCards} from './data'
 import Card from '../Card'
-import {AiOutlineCloud} from 'react-icons/ai'
+
 
 const Services = () => {
     const cards = servicesCards.map((item,index) => (

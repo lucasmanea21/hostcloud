@@ -4,7 +4,7 @@ import { ServicesP, ServicesTitle, ServicesTopline } from '../Home/ServicesSecti
 import { BtnWrapper } from '../Navbar/NavbarComponents'
 import * as Cp from './ContactComponents'
 import {contactData} from './data'
-import SimpleMap, { MapContainer } from './GoogleMap'
+import SimpleMap from './GoogleMap'
 
 const ContactSection = () => {
     const icons = contactData.map((item,index) => (
